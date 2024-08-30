@@ -1,0 +1,62 @@
+
+
+/* Estilo da pagina geral */
+body {
+    font-family:Arial, Helvetica, sans-serif; /*a fonte do site*/
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;/*cor de fundo*/
+}
+
+/* Navegação */
+nav {
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding: 12px 20%; /*interno à barra de navegação*/
+    border-bottom: 1px solid #c9c7c7; /*linha fina*/
+    font-size: 15px;
+}  
+
+.nav-esq {
+    display: flex;
+    align-items: center;
+}
+
+.nav-dir {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 15px;
+    margin-right: 20px; /* Espaço entre a logo e os links */
+}
+
+
+.nav-links {
+    list-style: none; /*Remove marcadores padrão da lista - bolinha*/
+    display: flex; /*lista em linha*/
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    margin-left: 10px; /* Espaçamento entre os itens da lista*/
+}
+
+.nav-links a {
+    color: #b8b8b8; /*Cor do texto*/
+    text-decoration: none; /*Remove sublinhado*/
+    font-size: 16px;
+    padding: 5px 10px; /*padding ao redor dos links*/
+}
+
+.bt {
+    background-color: #f7f7f7; /*cor de fundo do botão*/
+    color: #f87f35;
+    text-decoration: none;
+    padding: 18px 25px; /*padding ao botão*/
+    border-radius: 5px; /*cantos arredondados*/
+    border: 1px solid #c9c7c7;
+}
